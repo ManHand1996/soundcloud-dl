@@ -9,6 +9,18 @@ tqdm
 ```
 required [chromewebdriver](https://sites.google.com/chromium.org/driver/)
 
+edited your proxy:
+```python
+# webdriver proxy
+OPTIONS = {
+        'proxy': {
+            'http': 'http://127.0.0.1:7890',
+            'https': 'http://127.0.0.1:7890',
+        }
+ }
+ # download proxy
+ PROXY = 'http://127.0.0.1:7890'
+```
 
 ```shell
 alias soundclound-dl="python3.10 soundcloud_music.py"
